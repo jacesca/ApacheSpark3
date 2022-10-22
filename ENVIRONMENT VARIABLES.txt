@@ -1,0 +1,28 @@
+Install apache spark
+Install java jdk
+Install winutils (hadoop)
+Install pyspark, findspark (for use in jupyter notebook), pytest
+
+
+1. Add to PATH: 
+C:\Users\jaces\Documents\certificate\Courses\ApacheSpark3\spark3\bin
+C:\Users\jaces\Documents\certificate\Courses\ApacheSpark3\spark3\hadoop\bin
+
+2. PYSPARK_PYTHON: C:\Users\jaces\Documents\certificate\Courses\ApacheSpark3\env\python.exe
+
+3. SPARK_HOME: C:\Users\jaces\Documents\certificate\Courses\ApacheSpark3\spark3
+
+4. HADOOP_HOME: C:\Users\jaces\Documents\certificate\Courses\ApacheSpark3\spark3\hadoop\
+4.a hadoop.home.dir C:\Users\jaces\Documents\certificate\Courses\ApacheSpark3\spark3\hadoop\
+
+5. JAVA_HOME: C:\Program Files\Java\jdk-19
+
+
+
+Install apache spark, java jdk, winutils (hadoop)
+pip install findspark
+pip install pytest
+
+Once you configure spark, you need to install in the environment pyspark with the same version of the spark you install it.
+
+To run spark just write pyspark

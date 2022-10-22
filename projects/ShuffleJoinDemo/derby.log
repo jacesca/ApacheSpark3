@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Oct 20 20:31:42 CST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0183-f861-cab9-000004863370 
+on database directory C:\Users\jaces\Documents\certificate\Courses\ApacheSpark3\projects\ShuffleJoinDemo\metastore_db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44 
+Loaded from file:/C:/Users/jaces/Documents/certificate/Courses/ApacheSpark3/spark3/jars/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=19+36-2238
+user.dir=C:\Users\jaces\Documents\certificate\Courses\ApacheSpark3\projects\ShuffleJoinDemo
+os.name=Windows 11
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

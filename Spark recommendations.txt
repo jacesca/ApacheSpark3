@@ -1,0 +1,25 @@
+Recommendations on queries in SPARK
+
+* Don't code like a novice
+	Always try to cut down the size of your dataframes as early as possible.
+* Shuffle partitions and Parallelism
+	Look out the number of shuffle partitions and the number of executors.
+	You should start by asking this question:
+		What is the max posible parallelism for my join operation?
+	- The first and most common limit is the number of executors. If the job run with
+	  500 executors, then that's the maximum limit: 500.
+	- The second comes from the number of shuffle partitions. You have 500 executors but 
+	  configuration set 400 shuffle, then the maximum limit is 400.
+	- The third limit comes from the number of unique join keys. If you have only 200
+	  unique keys, then the max shuffle partitions is 200.
+* Key distribytion
+
+
+Shuffle joins could become problematic because
+* Huge volumes (Filter/AGgregate)
+* Parallelism (Shuffles/Executors/Keys)
+* Shuffle distribution (Key skews)
+	
+
+Shuffle join --> Applied to Large to Large scenarios
+Broadcast Join --> Applied to Large to Small scenarios

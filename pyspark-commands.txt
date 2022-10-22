@@ -1,0 +1,22 @@
+# Initiate Spark
+pyspark --master local[3] --driver-memory 2G
+pyspark --master local[3] --driver-memory 1G --executor-memory 500M --num-executors 2 --executor-cores 1
+pyspark
+
+
+
+# On spark shell
+# Read data
+df = spark.read.json('C:/Users/jaces/Documents/certificate/Courses/ApacheSpark3/projects/01-StartingWithAnaconda/data/people.json')
+df.show()
+
+# Server
+http://localhost:4040/jobs/
+
+# On spark shell
+# Check spark version
+spark.version
+
+# On zepelin notebook
+# To use python
+%pyspark

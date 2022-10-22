@@ -1,0 +1,3 @@
+22/10/20 17:34:42 INFO UDF Demo: Catalog Entry (column exp):
+22/10/20 17:34:43 INFO UDF Demo: Catalog Entry (SQL exp):
+22/10/20 17:34:44 INFO UDF Demo: [parseGenderUdf3, null, null, true]
